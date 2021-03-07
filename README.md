@@ -9,7 +9,7 @@
 
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Version-Badge](https://img.shields.io/badge/MODULE%20VERSION-v1.4.1-Green?style=for-the-badge&logo=terraform&logoColor=BLUE&logoWidth=25) &nbsp;&nbsp;&nbsp; ![Terraform FMT](https://github.com/methodmi/Terraform-AWS-S3-Module/workflows/Terraform%20FMT/badge.svg) &nbsp;&nbsp;&nbsp; ![Terraform Validate](https://github.com/methodmi/Terraform-AWS-S3-Module/workflows/Terraform%20Validate/badge.svg) &nbsp;&nbsp;&nbsp; ![Terraform Plan](https://github.com/methodmi/Terraform-AWS-S3-Module/workflows/Terraform%20Plan/badge.svg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Version-Badge](https://img.shields.io/badge/MODULE%20VERSION-v1.0.0-Green?style=for-the-badge&logo=terraform&logoColor=BLUE&logoWidth=25) &nbsp;&nbsp;&nbsp; ![Terraform FMT](https://github.com/methodmi/Terraform-AWS-S3-Module/workflows/Terraform%20FMT/badge.svg) &nbsp;&nbsp;&nbsp; ![Terraform Validate](https://github.com/methodmi/Terraform-AWS-S3-Module/workflows/Terraform%20Validate/badge.svg) &nbsp;&nbsp;&nbsp; ![Terraform Plan](https://github.com/methodmi/Terraform-AWS-S3-Module/workflows/Terraform%20Plan/badge.svg)
 
 <br><br>
 
