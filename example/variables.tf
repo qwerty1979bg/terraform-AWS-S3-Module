@@ -32,13 +32,13 @@ variable "region" {
 }
 
 variable "bucket_prefix" {
-  type        = list
+  type        = list(any)
   description = "A prefix list that will be added to the start of the bucket name. For example if bucket_prefix=['test'], then the bucket will be named 'test-$${bucket}'. This module will also look for the keywords 'region_prefix' and 'account_prefix' and will substitute the current region, or account_id within the module as in the example: bucket_prefix=['test', 'region_prefix', 'account_prefix'], resulting in the bucket 'test-us-east-1-1234567890101-$${bucket}'. If left blank no prefix will be added."
   default     = []
 }
 
 variable "bucket_suffix" {
-  type        = list
+  type        = list(any)
   description = "A suffix list that will be added to the end of the bucket name. For example if bucket_suffix=['test'], then the bucket will be named '$${bucket}-test'. This module will also look for the keywords 'region_suffix' and 'account_suffix' and will substitute the current region, or account_id within the module as in the example: bucket_suffix=['region_suffix', 'account_suffix', 'test'], resulting in the bucket name '$${bucket}-us-east-1-1234567890101-test'. If left blank no suffix will be added."
   default     = []
 }
@@ -102,7 +102,7 @@ variable "error_document" {
 }
 
 variable "cors_rule" {
-  type        = map
+  type        = map(any)
   description = "Cross Origin Resource Sharing ruleset to apply to the bucket"
   default = {
     allowed_headers = ["*"]
@@ -114,7 +114,7 @@ variable "cors_rule" {
 }
 
 variable "tags" {
-  type        = map
+  type        = map(any)
   description = "Specify any tags that should be added to the S3 bucket being provisioned."
   default = {
     Provisioned_By    = "Terraform"

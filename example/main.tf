@@ -1,6 +1,6 @@
 # Terraform configuration 
 terraform {
-  required_version = ">= 0.13"
+  required_version = ">= 0.14"
 }
 
 #Provider configuration. Typically there will only be one provider config, unless working with multi account and / or multi region resources
