@@ -101,7 +101,7 @@ None Defined for an un-encrypted bucket. If the requested bucket requires encryp
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -135,7 +135,7 @@ module "example" {
 
     # tags = {
     #   Provisioned_By = "Terraform"
-    #   Module_GitHub_URL = "https://github.com/TheCloudMage/AWS-S3Bucket-Module.git"
+    #   Module_GitHub_URL = "https://github.com/methodmi/AWS-S3Bucket-Module.git"
     # }
 }
 ```
@@ -156,7 +156,7 @@ Module variables that need to either be defined or re-defined with a non-default
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -192,7 +192,7 @@ bucket = "test-backup-bucket"
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = var.bucket
@@ -230,7 +230,7 @@ variable "bucket" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Declaring the "bucket" variable
     bucket = "test-backup-bucket"
@@ -271,7 +271,7 @@ variable "region" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -316,7 +316,7 @@ variable "bucket_prefix" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -364,7 +364,7 @@ variable "bucket_suffix" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -400,7 +400,7 @@ variable "versioning" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -436,7 +436,7 @@ variable "mfa_delete" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -503,7 +503,7 @@ Statement:
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -543,7 +543,7 @@ variable "kms_master_key_id" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -588,7 +588,7 @@ variable "acl" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -624,7 +624,7 @@ variable "logging_bucket" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -660,7 +660,7 @@ variable "static_hosting" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -696,7 +696,7 @@ variable "index_document" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -732,7 +732,7 @@ variable "error_document" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -786,7 +786,7 @@ variable "cors_rule" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -828,7 +828,7 @@ variable "tags" {
     description = "Specify any tags that should be added to the S3 bucket being provisioned."
     default     = {
         Provisioned_By = "Terraform"
-        Module_GitHub_URL = "https://github.com/TheCloudMage/AWS-S3Bucket-Module.git"
+        Module_GitHub_URL = "https://github.com/methodmi/AWS-S3Bucket-Module.git"
     }
 }
 ```
@@ -839,7 +839,7 @@ variable "tags" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -847,14 +847,14 @@ module "example" {
     // Optional Variables with module defined default values assigned
     tags = {
         Provisioned_By = "Terraform"
-        Module_GitHub_URL = "https://github.com/TheCloudMage/AWS-S3Bucket-Module.git"
+        Module_GitHub_URL = "https://github.com/methodmi/AWS-S3Bucket-Module.git"
     }
 }
 ```
 
 <br><br>
 
-![Tags](https://raw.githubusercontent.com/TheCloudMage/terraform-aws-s3-module/master/images/tf_s3_tags.png)
+![Tags](https://raw.githubusercontent.com/methodmi/terraform-AWS-S3-Module/master/images/tf_s3_tags.png)
 
 <br><br><br>
 
@@ -903,7 +903,7 @@ variable "read_access" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -954,7 +954,7 @@ variable "write_access" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -1034,7 +1034,7 @@ variable "public_access" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -1122,7 +1122,7 @@ variable "custom_policy" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -1195,7 +1195,7 @@ variable "disable_policy_autogen" {
 
 ```terraform
 module "example" {
-    source = "git@github.com:TheCloudMage/terraform-aws-s3-module?ref=v1.4.1"
+    source = "git@github.com:methodmi/terraform-aws-s3-module?ref=v1.0.0"
 
     // Required Variables
     bucket = "test-backup-bucket"
@@ -1344,7 +1344,7 @@ variable "tags" {
     description = "Specify any tags that should be added to the S3 bucket being provisioned."
     default     = {
         Provisioned_By = "Terraform"
-        Module_GitHub_URL = "https://github.com/TheCloudMage/TF-AWS-S3-Module.git"
+        Module_GitHub_URL = "https://github.com/methodmi/TF-AWS-S3-Module.git"
     }
 }
 ```
@@ -1396,7 +1396,7 @@ bucket = "Value Required"
 # }
 # tags = {
 #   Provisioned_By = "Terraform"
-#   Module_GitHub_URL = "https://github.com/TheCloudMage/AWS-S3Bucket-Module.git"
+#   Module_GitHub_URL = "https://github.com/methodmi/AWS-S3Bucket-Module.git"
 # }
 ```
 
@@ -1492,22 +1492,3 @@ output "hosted_zone_id" {
 
 * [Terraform for VSCode](https://github.com/mauve/vscode-terraform)
 * [Terraform Config Inspect](https://github.com/hashicorp/terraform-config-inspect)
-
-<br><br>
-
-# Contacts and Contributions
-
-This project is owned and maintained by [TheCloudMage](https://github.com/TheCloudMage)
-
-<br>
-
-To contribute, please:
-
-* Fork the project
-* Create a local branch
-* Submit Changes
-* Create A Pull Request
-
-<br><br>
-
-![CloudMage](https://s3-us-west-2.amazonaws.com/img.cloudmage.io/icons/cloudmage/32/logo.png) This document was created with ![CloudMage](https://s3-us-west-2.amazonaws.com/img.cloudmage.io/icons/cloudmage/16/heart.png) by the open source [MagicDoc](https://pypi.org/project/magicdoc/) project!

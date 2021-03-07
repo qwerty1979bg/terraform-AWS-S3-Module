@@ -141,6 +141,6 @@ variable "tags" {
   description = "Specify any tags that should be added to the S3 bucket being provisioned."
   default = {
     Provisioned_By    = "Terraform"
-    Module_GitHub_URL = "https://github.com/TheCloudMage/TF-AWS-S3-Module.git"
+    Module_GitHub_URL = "https://github.com/methodmi/terraform-AWS-S3-Module.git"
   }
 }

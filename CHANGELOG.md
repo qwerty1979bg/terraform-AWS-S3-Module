@@ -1,6 +1,6 @@
 <!-- VSCode Markdown Exclusions-->
 <!-- markdownlint-disable MD024 Multiple Headings with the Same Content-->
-# CloudMage TF-AWS-S3Bucket-Module CHANGELOG
+# MMI TF-AWS-S3Bucket-Module CHANGELOG
 
 All notable changes to this project will be documented in this file.
 

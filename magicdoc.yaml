@@ -4,7 +4,7 @@ Config:
 # Repository Configuration: #
 #############################
 Git:
-    Repository: git@github.com:TheCloudMage/terraform-aws-s3-module.git
+    Repository: git@github.com:methodmi/terraform-AWS-S3-Module.git
     Version: 1.4.1
 
 ############################
@@ -382,7 +382,7 @@ Variables:
                 Images:
         tags:
             ExampleValue: {'Provisioned_By': 'Terraform', 'Tested': 'true'}
-            DefaultValue: {'Provisioned_By': 'Terraform', 'Module_GitHub_URL': 'https://github.com/CloudMage-TF/AWS-S3Bucket-Module.git'}
+            DefaultValue: {'Provisioned_By': 'Terraform', 'Module_GitHub_URL': 'https://github.com/methodmi/terraform-AWS-S3-Module.git'}
             GeneralDetails:
                 Description: >-
                     This variable should contain a map of tags that will be assigned to the S3 bucket upon creation. Any tags contained within the `tags` map variable will be passed to the module and automatically merged with a few tags that are also automatically created when the module is executed. The automatically generated tags are as follows:
@@ -514,8 +514,8 @@ Variables:
                         "Principal":  "*",
                         "NotAction": "s3:GetObject",
                         "Resource": [
-                            "arn:aws:s3:::cloudmage.io/*",
-                            "arn:aws:s3:::cloudmage.io"
+                            "arn:aws:s3:::methodmi.com/*",
+                            "arn:aws:s3:::methodmi.com"
                         ],
                         "Condition": {
                             "Bool": {

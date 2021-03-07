@@ -6,7 +6,7 @@ module "defaults" {
 
   tags = {
     Provisioned_By    = "Terraform"
-    Module_GitHub_URL = "https://github.com/TheCloudMage/terraform-aws-s3-module.git"
+    Module_GitHub_URL = "https://github.com/methodmi/terraform-AWS-S3-Module.git"
     Testing           = "True"
   }
 }
